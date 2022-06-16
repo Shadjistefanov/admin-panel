@@ -1,0 +1,165 @@
+[
+  {
+    "title": "General",
+    "icon": "bi-gear-fill",
+    "children": [
+
+      {
+        "title": "Home",
+        "icon": "bi-house-fill",
+        "path": "/"
+      },
+      {
+        "title": "About",
+        "icon": "bi-info-circle-fill",
+        "path": "/products"
+      },
+      {
+        "title": "Contact",
+        "icon": "bi-phone-fill",
+        "path": "/contact"
+      }
+
+    ]
+  },
+  {
+    "title": "Account",
+    "icon": "bi-person-circle",
+    "children": [
+      {
+        "title": "Login",
+        "path": "/login"
+      },
+      {
+        "title": "Register",
+        "path": "/register"
+      },
+      {
+        "title": "Forgot Password",
+        "path": "/forgot-password"
+      },
+      {
+        "title": "Reset Password",
+        "path": "/reset-password"
+      }
+    ]
+  },
+  {
+    "title": "Profile",
+    "icon": "bi-person-fill",
+    "children": [
+      {
+        "title": "Profile",
+        "path": "/profile"
+      },
+      {
+        "title": "Settings",
+        "path": "/settings"
+      },
+      {
+        "title": "Logout",
+        "path": "/logout"
+      }
+    ]
+  },
+  {
+    "title": "Advance",
+    "icon": "bi-view-list",
+    "children": [
+      {
+        "title": "Search",
+        "path": "/search"
+      },
+      {
+        "title": "History",
+        "path": "/history"
+      }
+    ]
+  },
+  {
+    "title": "Pages",
+    "icon": "bi-file-earmark-break",
+    "children": [
+      {
+        "title": "Products",
+        "path": "/products"
+      },
+      {
+        "title": "Form",
+        "path": "/form"
+      },
+      {
+        "title": "News",
+        "path": "/news"
+      }
+    ]
+  },
+  {
+    "title": "Managed Modules",
+    "icon": "bi-view-list",
+    "children": [
+      {
+        "title": "Module 1"
+      },
+      {
+        "title": "Module 2"
+      },
+      {
+        "title": "Module 3"
+      }
+    ]
+  },
+  {
+    "title": "FAQ",
+    "icon": "bi-question-octagon",
+    "children": [
+      {
+        "title": "FAQ 1"
+      },
+      {
+        "title": "FAQ 2"
+      },
+      {
+        "title": "FAQ 3"
+      }
+    ]
+  },
+  {
+    "title": "Testimonials",
+    "icon": "bi-person-fill",
+    "children": [
+      {
+        "title": "Our Friends"
+      }
+    ]
+  },
+  {
+    "title": "System",
+    "icon": "bi-pc-display-horizontal",
+    "children": [
+      {
+        "title": "System 1"
+      },
+      {
+        "title": "System 2"
+      }
+    ]
+  },
+  {
+    "title": "Users",
+    "icon": "bi-person-fill",
+    "children": [
+      {
+        "title": "User 1"
+      },
+      {
+        "title": "User 2"
+      }
+    ]
+  },
+  {
+    "title": "Emails",
+    "icon": "bi-envelope"
+
+  }
+]

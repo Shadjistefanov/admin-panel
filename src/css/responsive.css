@@ -1,0 +1,198 @@
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+    .product-table table tr td a img {
+        display: block;
+        margin: 0 0 5px 0;
+    }
+
+    .product-table table tr th {
+        font-size: 12px;
+    }
+
+    .product-table table tr td a,
+    .product-table table tr td {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+
+    .sidebar {
+        position: fixed !important;
+        margin-left: 0 !important;
+        z-index: 1000;
+    }
+    .sidebar.show {
+        transform: translateX(-260px);
+    }
+
+    .sidebar.collapse:not(.show) {
+        transform: translateX(0);
+        margin-left: 0;
+        width: 260px;
+    }
+
+    .sidebar-col {
+        padding: 0;
+    }
+
+    .cont {
+        padding: 0;
+    }
+
+    header .left-nav {
+        margin-left: -12px;
+    }
+    .product-table table {
+        min-width: 744px !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .sidebar-item {
+        padding: 0.65em 1em;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        width: 200px !important;
+        padding-bottom: 50px;
+    }
+
+    header .left-nav {
+        min-width: 200px;
+        padding: 5px 0;
+    }
+
+    header .nav-link {
+        padding: 0.5rem;
+    }
+
+    .nav-btn {
+        top: 22px;
+        margin-left: 200px;
+        left: 7px;
+    }
+
+    .nav-btn span {
+        width: 26px !important;
+    }
+
+    .nav-btn span:nth-child(1),
+    .nav-btn span:nth-child(3) {
+        left: 5px;
+    }
+
+    .sidebar-content .sidebar-item {
+        margin-left: 15px;
+    }
+
+    .cont .user-title h5 {
+        font-size: 22px;
+    }
+
+    .intro-block form input {
+        margin: 0 0 10px 0;
+    }
+
+    .intro-block .filters {
+        margin: 5px 0 15px 0;
+    }
+
+    .navbar-brand {
+        font-size: 1.15rem;
+    }
+
+    .data-time input {
+        font-size: 14px;
+    }
+
+    table tr td, table tr th {
+        padding: 12px 10px !important;
+        font-size: 14px;
+    }
+
+    table tr td .admin-type img {
+        width: 20px;
+    }
+
+    .table-responsive table {
+        min-width: 660px;
+    }
+
+    .intro-block .navigation ul li a {
+        padding: 5px 13px;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .intro-block .navigation ul li.active span {
+        padding: 5px 14px;
+        font-size: 15px;
+    }
+
+    .intro-block .navigation ul li a img {
+        width: 11px;
+    }
+
+    .product-table form .filters button img {
+        width: 19px;
+        margin: -3px 7px 0 0;
+    }
+
+    .product-table form {
+        display: block;
+    }
+
+    .product-table form .filters {
+        margin: 15px 0 10px 0;
+        text-align: right;
+    }
+
+    .form-cont .form-control {
+        font-size: 15px;
+    }
+
+    .form-group input::placeholder {
+        font-size: 15px;
+    }
+
+    .breadcrumb {
+        padding: 15px;
+    }
+
+    .breadcrumb ol li  {
+        font-size: 15px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .button {
+        padding: 8px 17px;
+        font-size: 15px;
+    }
+
+    header nav ul {
+        padding: 0 15px 0 0;
+    }
+}

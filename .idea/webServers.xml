@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="36f7c1ad-5919-44d7-945f-f77dab491225" name="stefanssft" url="http://stefan.ssft.me">
+        <fileTransfer rootFolder="/react-panel.stefan.ssft.me" host="stefan.ssft.me" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
