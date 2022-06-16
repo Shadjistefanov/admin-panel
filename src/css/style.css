@@ -893,3 +893,32 @@ input[type='checkbox']:checked:after {
 .product-table table .dropdown .dropdown-menu a {
     padding-left: 10px;
 }
+
+.dashboard-blocks {
+
+}
+
+.dashboard-block {
+    background: #fff;
+    text-align: center;
+    padding: 40px 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    box-shadow: 0 1px 10px rgba(80, 66, 119, .09);
+    border-radius: 8px;
+}
+
+.dashboard-block span {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.dashboard-block span.count {
+    display: block;
+}
+
+.dashboard-block span.currency {
+    font-weight: 600;
+}

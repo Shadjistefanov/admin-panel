@@ -5,9 +5,9 @@
     "children": [
 
       {
-        "title": "Home",
+        "title": "Dashboard",
         "icon": "bi-house-fill",
-        "path": "/"
+        "path": "/summary-dashboard"
       },
       {
         "title": "About",
