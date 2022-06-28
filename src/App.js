@@ -4,6 +4,7 @@ import FormPage from "./pages/form";
 import {Component} from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import SummaryDashboard from "./pages/summary-dashboard";
+import LoginForm from "./pages/login";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
             <Route  path="/products" element={<ProductPage/>}/>
             <Route  path="/form" element={<FormPage/>}/>
             <Route  path="/summary-dashboard" element={<SummaryDashboard/>}/>
+            <Route  path="/login" element={<LoginForm/>}/>
           </Routes>
         </Router>
     )

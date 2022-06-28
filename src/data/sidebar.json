@@ -89,9 +89,11 @@
         "path": "/form"
       },
       {
-        "title": "News",
-        "path": "/news"
+        "title": "Login",
+        "path": "/login"
       }
+
+
     ]
   },
   {

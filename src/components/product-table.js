@@ -2,6 +2,7 @@ import React from 'react';
 import {Button, ButtonGroup, Dropdown, Form, Table} from "react-bootstrap";
 import BtnToggle from "./switchBtn";
 import Image from "react-bootstrap/Image";
+import LoadingComp from "./loading";
 
 
 export default function ProductTable() {
@@ -155,6 +156,8 @@ export default function ProductTable() {
                     </tbody>
 
                 </Table>
+
+                <LoadingComp/>
 
             {/*    End table*/}
 

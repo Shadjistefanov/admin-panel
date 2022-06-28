@@ -922,3 +922,77 @@ input[type='checkbox']:checked:after {
 .dashboard-block span.currency {
     font-weight: 600;
 }
+
+.login {
+    padding-top: 10px;
+}
+
+.login .heading {
+    text-align: center;
+    font-size: 32px;
+}
+
+.login .form-checkbox,
+.login .form-checkbox .form-check {
+    margin-bottom: 0;
+}
+
+.login .form-checkbox input {
+    padding-left: 0;
+}
+
+.login .form-checkbox label {
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.login .forgot-password {
+}
+
+.login .forgot-password a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.login .flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login form {
+    max-width: 430px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+
+.login form .login-btns {
+    margin: 15px 0 0 0;
+}
+
+.login form .login-btns button {
+    margin-right: 15px;
+}
+
+.login form .login-btns .btn {
+    min-width: 140px;
+}
+
+.loading {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.loading .spinner-border {
+    width: 5rem;
+    height: 5rem;
+    color: #222E3C;
+}
